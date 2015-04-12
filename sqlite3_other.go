@@ -7,7 +7,7 @@
 package sqlite3
 
 /*
-#cgo CFLAGS: -I.
+#cgo CFLAGS: -I. -DHAVE_USLEEP=1 -DTHREADSAFE=1
 #cgo linux LDFLAGS: -ldl
 #cgo LDFLAGS: -lpthread
 */
